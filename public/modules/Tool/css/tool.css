@@ -1,0 +1,46 @@
+.modTool {
+    color: white;
+    margin: 5px;
+}
+
+.modTool .h3 {
+    font-size: 1.5em;
+    margin: 3px 0 5px;
+}
+
+.modTool button {
+    padding: 4px;
+    -webkit-border-radius: 5px;
+    margin-left: 5px;
+}
+
+.modTool .inner {
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #33a;
+    -webkit-border-radius: 8px;
+}
+
+.modTool label {
+    padding-right: 10px;
+}
+
+.modTool input {
+    padding: 3px;
+    -webkit-border-radius: 5px;
+}
+
+.modTool td.title {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.modTool .result {
+    display: block;
+    color: white;
+    padding: 15px 0;
+}
+
+.modTool .empty {
+    display: none;
+}

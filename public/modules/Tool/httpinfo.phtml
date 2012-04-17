@@ -1,0 +1,14 @@
+<div class="inner">
+    <h3 class="h3">HTTP Information</h3>
+    <div class="result">
+        <table>
+            <?php
+            foreach ($_SERVER as $key=>$value) {
+                echo "<tr><td class='title'>";
+                echo $key."</td><td>".$value."</td>";
+                echo "</tr>";
+            }
+            ?>
+        </table>
+    </div>
+</div>
